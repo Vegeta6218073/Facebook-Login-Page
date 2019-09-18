@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook-Login or Signup</title>
+    <style>
+        #Top_Row{
+            background-color:#0C70AD;
+            color: white;
+            font-size: 30px;
+        }
+
+        #Top_Row #Name{
+            position: relative;
+            left: 300px;
+            top: 30px;
+            font-size:130%;
+        }
+
+        #Top_Row #Email{
+            position: relative;
+            left: 1210px;
+            font-size: medium;
+        }
+
+        #Top_Row #Password{
+            position: relative;
+            left: 1350px;
+            font-size: medium;
+        }
+
+        #Top_Row #Emailbox{
+            position: relative;
+            left: 1340px;
+        }
+
+        #Top_Row #Passwordbox{
+            position: relative;
+            left: 1420px;
+        }
+        #Top_Row #Submit{
+            position: relative;
+            left: 1440px;
+        }
+
+        #Signup{
+            position: relative;
+            left: 1500px;
+            top: 50px;
+        }
+
+        #Top_Row #a{
+            position: relative;
+            left: 1600px;
+            font-size: medium;
+        }
+
+        #Top_Row a{
+            color: aliceblue;
+        }
+
+        #Signup #a{
+            font-style: oblique;
+        }
+
+        #Signup #dobbox{
+            position: relative;
+            left: 45px;
+        }
+
+        #Signup #Namebox{
+            position: relative;
+            left: 60px;
+        }
+        
+        #Signup #Emailbox{
+            position: relative;
+            left: 30px;
+        }
+
+        #Signup #Passwordbox{
+            position: relative;
+            left: 70px;
+        }
+
+        #Signup #Submit{
+            position: relative;
+            left: 70px;
+            background-color:green;
+            border-radius: 12px;
+            font-size: 30px;
+            padding: 10px 30px;
+            color: white;
+        }
+        hr{
+            position: relative;
+            top: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Top_Row">
+        <form>
+            <label id="Name">facebook</label>
+            <label id="Email">Email or Phone</label>
+            <label id="Password">Password</label>
+            <br>
+            <input type="text" id="Emailbox" placeholder="Email or Phone">
+            <input type="password" id="Passwordbox" placeholder="Password">
+            <input type="submit" id="Submit" value="Login">
+            <br>
+            <label id="a"><a href="#">Forgotten account?</a></label>
+        </form>
+    </div>
+    <div id="Signup">
+        <h1 id="a">Create a new account</h1>
+        <h3 id="a">It's easy and quick</h3>
+        <form>
+            <label id="Name">Full Name</label>
+            <input type="text" id="Namebox" placeholder="Full Name">
+            <br>
+            <br>
+            <label id="Email">Email or Phone</label>
+            <input type="text" id="Emailbox" placeholder="Email or Phone">
+            <br>
+            <br>
+            <label id="Password">Password</label>
+            <input type="password" id="Passwordbox" placeholder="Password">
+            <br>
+            <br>
+            <label>Date of Birth</label>
+            <input id="dobbox" type="date">
+            <br>
+            <br>
+            <label>Gender</label>
+            <input type="radio">
+            <label>Male</label>
+            <input type="radio">
+            <label>Female</label>
+            <br>
+            <br>
+            <input type="submit" id="Submit" value="Sign up">
+        </form>
+    </div>
+    <hr>
+</body>
+</html>
